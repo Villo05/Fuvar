@@ -3,13 +3,13 @@ package app;
 
 public class Fuvar {
     private String rsz;
-    private int idoMp;
+    private int ido_mp;
     private int osszeg;
     private String fit_mod;
 
     public Fuvar(String rsz, int ido_mp, int osszeg, String fit_mod) {
         this.rsz = rsz;
-        this.idoMp = idoMp;
+        this.ido_mp = ido_mp;
         this.osszeg = osszeg;
         this.fit_mod = fit_mod;
     }
@@ -18,8 +18,8 @@ public class Fuvar {
         return rsz;
     }
 
-    public int getIdoMp() {
-        return idoMp;
+    public int getIdo_mp() {
+        return ido_mp;
     }
 
     public int getOsszeg() {

@@ -26,9 +26,14 @@ public class Fuvarok {
             fuvarok.add(fuvar);
         }
         
-        kiir();
+        System.out.println("1. Összes fuvar értéke: ");
+        System.out.println("2. Legdrágább fuvar rendszáma: ");
+        System.out.println("3. Legolcsóbb fuvar forintban: ");
+        System.out.println("4. Hány kártyás fizetés volt: ");
+        System.out.println("5. Minden fizetési mód meghatázott: ");
+        System.out.println("6. Hány darab autó van a rendszerben: ");
+        System.out.println("7. Hányféle fizetési mód van: ");
+        System.out.println("8. Melyik autó mennyi fuvart teljesített: ");
+        
     }
-    private static void kiir(){
-            System.out.println(fuvarok);
-        }
 }
